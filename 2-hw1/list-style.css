@@ -1,0 +1,77 @@
+*
+{
+	font-family: fantasy;
+}
+
+header 
+{
+  color: white;
+  background-image: url('images/narutoshippuden.jpg');
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 700px;
+}
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(248, 236, 201);
+	font-size: 50px;
+	height: auto;
+}
+
+.profile
+{
+	display: block;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -50px;
+}
+
+.content
+{
+	font-size: 35px;
+	color: rgb(51,51,51);
+	margin-left: 67px;
+}
+.picture
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100%;
+}
+
+section .naruto{
+	display: block;
+	background-color: rgb(240, 240, 102);
+	width: 1900px;
+	height: auto;
+}
+
+section .sasuke{
+	display: block;
+	background-color: rgb(224, 111, 224);
+	width: 1900px;
+	height: auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+footer 
+{
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, .8);
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}

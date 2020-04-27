@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+</head>
+<style type="text/css">
+    table,tr,td,th {
+        border-collapse: collapse;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Morning</th>
+                <th>Noon</th>
+                <th>Afternoon</th>
+                <th>Night</th>
+            </tr>
+            <tr>
+                <td>SUN</td>
+                <td colspan="4">Sleeping</td>
+            </tr>
+            <tr>
+                <td>MON</td>
+                <td colspan="2">Attend Class</td>
+                <td>Assignment</td>
+                <td>Sleep</td>
+            </tr>
+            <tr>
+                <td>TUE</td>
+                <td rowspan="2">Watch movie</td>
+                <td rowspan="2">Sleeping</td>
+                <td rowspan="3">Assignment</td>
+                <td rowspan="2">Sleep</td>
+            </tr>
+            <tr>
+                <td>WED</td>
+                <td>Part time (位置被上面重叠的会弹出来 本来在WED的Noon）</td>
+            </tr>
+            <tr>
+                <td>THURS</td>
+                <td>Part Time</td>
+                <td>Clean up</td>
+                <td>Hanging</td>
+            </tr>
+            <tr>
+                <td>FRI</td>
+                <td rowspan="2">Attend Class</td>
+                <td>Sleeping</td>
+                <td rowspan="2">Sport</td>
+    
+                <!---->
+                <p style="font-size: x-large; color: crimson;">连 td 都没有打出来的就会出现缺口, 例如hanging以下</h6>
+                <!---->
+                
+            </tr>
+            <tr>
+                <td>SAT</td>
+                <td>Study</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <div>
+        来个精致的mf
+        <table>
+            <tr id="1">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+    
+            <tr id="2">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="2" style="background-color: rgb(255, 216, 133);"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="3">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="4">
+                <td></td>
+                <td></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="5">
+                <td></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td></td>
+            </tr>
+            <tr id="6">
+                <td></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td rowspan="2" style="background-color: rgb(255, 216, 133);"></td>
+                <td rowspan="2"style="background-color: rgb(255, 216, 133);"></td>
+                <td rowspan="2"style="background-color: rgb(255, 216, 133);"></td>
+                <td style="background-color: rgb(255, 216, 133);"></td>
+                <td></td>
+            </tr>
+            
+            <tr id="7">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+    
+            <tr id="8">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <div>
+        Internet Appliation:
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td rowspan="4" style="background-color: blueviolet;"></td>
+                <td></td>
+                <td colspan="3" style="background-color: blueviolet;"></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td rowspan="3" style="background-color: blueviolet;"></td>
+                <td></td>
+                <td rowspan="3" style="background-color: blueviolet;"></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="background-color: blueviolet;"></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
